@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # aws-okta
 
 `aws-okta` allows you to authenticate with AWS using your Okta credentials.
@@ -239,3 +240,16 @@ We use the following multiple step authentication:
 - Step 3 : Get AWS SAML assertion from Okta
 - Step 4 : Assume base okta role from profile with the SAML Assertion
 - Step 5 : Assume the requested AWS Role from the targeted AWS account to generate STS credentials
+=======
+# Rukmanidt Aws-okta
+
+## How do I install these formulae?
+
+`brew install rukmanidt/aws-okta/<formula>`
+
+Or `brew tap rukmanidt/aws-okta` and then `brew install <formula>`.
+
+## Documentation
+
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+>>>>>>> a37afce (Create rukmanidt/aws-okta tap)
